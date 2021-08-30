@@ -1,0 +1,56 @@
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 450px){
+    .site-main #subscribe-us-area .subscribe,
+    .site-main #subscribe-us-area .subscribe .subscribe-title,
+    .site-main #subscribe-us-area .subscribe .subscribe-title p, h4{
+        padding: 2% !important;
+        margin: 0% !important;
+    }
+
+    .site-main .site-banner .site-title h1{
+        font-size: 41px !important;
+    }
+
+    .site-main .subscribe-us-area .subscribe form .input-textbox input, textarea{
+        width: 15rem !important;
+    }
+
+    .site-main #about-area{
+        padding: 0% !important;
+    }
+
+    .site-main #about-area .about-title .paragraph{
+        width: 100% !important;
+    }
+
+    .site-main #about-area .about-title h2 > span{
+        letter-spacing: 5px !important;
+    }
+
+}
+
+
+@media only screen and (max-width: 792px){
+    .site-main #about-area .about-title h2 > span{
+        font-size: 31px !important;
+        letter-spacing: 10px;
+    }
+
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand{
+        padding: 2% !important;
+        margin: 0% !important;
+    }
+}
+
+@media only screen and (max-width: 1040px){
+
+    .header_area .main-menu .navbar{
+        padding: 1rem 2rem !important;
+    }
+    .site-main #project-area .our-project .img a img{
+        width: 100%;
+    }
+}
