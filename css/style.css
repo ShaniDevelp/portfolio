@@ -126,8 +126,40 @@
     font: normal 700 25px/12px var(--roboto);
 }
 
-.site-main #project-area .grid .our-project .img a:hover img{
-    filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+.site-main #project-area .grid .our-project .img  img:hover{
+    filter: brightness(1.1) drop-shadow(5px 8px 30px #1b1a1a);
+    transition: .8s;
+}
+
+.site-main #project-area .grid .our-project .img img{
+    width: 30rem;
+    height: 25rem;
+}
+
+.site-main #project-area .grid .our-project .img{
+    position: relative;
+}
+
+.site-main #project-area .grid .our-project .img .link-buttons{
+    position: absolute;
+    top: 10rem;
+    left: 9.5rem;
+    display: none;
+}
+
+.display{
+    display: flex !important;
+    flex-direction: column;
+}
+
+/* .display-not{
+    display: none !important;
+} */
+
+
+
+.site-main #project-area .grid .our-project .img .link-buttons a:first-child{
+   margin-bottom: 2rem;
 }
 
 /* End Project Area */

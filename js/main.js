@@ -1,22 +1,17 @@
-$(document).ready(function() {
+const images = document.querySelector('.portfolio-img');
+const btns = document.querySelector('.link-buttons')
 
-
-    let $btns = $('#project-area .button-group button');
-
-    $btns.click(function(e) {
-
-        $('#project-area .button-group button').removeClass('active');
-        e.target.classList.add('active');
-
-        let selector = $(e.target).attr('data-filter');
-        $('#project-area .grid').isotope({
-            filter:selector
-        })
-
-        return false;
-    })
-
+images.addEventListener("mouseover", function(){
+    console.log()
+    btns.classList.add('display')
 })
+
+images.addEventListener("mouseleave", function(){
+    console.log('fhgrui')
+    btns.classList.add('display-not')
+})
+
+
 
 
 
